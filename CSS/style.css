@@ -136,8 +136,8 @@
 .nav-menu > li:hover > .drop-down li {
     transform: translateX(0px);
     transition-property: transform;
-    transition-duration: 0.4s;
-    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
 }
 .nav-menu > li:hover > .drop-down {
     visibility: visible;
@@ -239,7 +239,6 @@
     .footer .footer-links {
         width: 60%;
         display: flex;
-        gap: 150px;
         padding: 40px;
         justify-content: space-between;
     }

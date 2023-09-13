@@ -6,6 +6,7 @@
         <title>Document</title>
         <!-- Css links -->
         <link rel="stylesheet" href="./CSS/style.css" />
+        <link rel="stylesheet" href="./CSS/index.css" />
 
         <!-- bootstrap link -->
         <link
@@ -100,7 +101,9 @@
                 </div>
 
                 <div class="nav-cart">
-                    <a href="./pages/profile.html"><i class="bi bi-person"></i></a><a class="cart-button"><i class="bi bi-cart3"></i></a>
+                    <a href="./pages/profile.html"
+                        ><i class="bi bi-person"></i></a
+                    ><a class="cart-button"><i class="bi bi-cart3"></i></a>
                 </div>
             </header>
 
@@ -122,13 +125,141 @@
 
             <!-- Home Page Main section -->
             <main>
-                <div class="carousal"></div>
-                <div class="gender"></div>
-                <div class="collcetion"></div>
-                <div class="hero-section"></div>
-                <div class="categories"></div>
-                <div class="new-arrival"></div>
-                <div class="best-seller"></div>
+                <!-- carousel Section -->
+                <div class="carousel" data-carousel>
+                    <a class="carousel-button prev" data-carousel-button="prev"
+                        ><i class="bi bi-chevron-left"></i
+                    ></a>
+                    <a class="carousel-button next" data-carousel-button="next"
+                        ><i class="bi bi-chevron-right"></i
+                    ></a>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img
+                                src="./assets/images/landing/Disney_landing_web_banner.jpg"
+                                alt=""
+                            />
+                        </li>
+                        <li class="slide">
+                            <img
+                                src="./assets/images/landing/Marvel_landing_web_banner.jpg"
+                                alt=""
+                            />
+                        </li>
+                        <li class="slide">
+                            <img
+                                src="./assets/images/landing/webbanner_mens.jpg"
+                                alt=""
+                            />
+                        </li>
+                        <li class="slide">
+                            <img
+                                src="./assets/images/landing/webbanner_womens.jpg"
+                                alt=""
+                            />
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Gender Category Section -->
+                <div class="gender">
+                    <img src="./assets/images/womens_5-1.jpg" alt="" />
+                    <img src="./assets/images/mens_2-1-1.jpg" alt="" />
+                </div>
+
+                <!-- Featured Collection section -->
+                <div class="collection">
+                    <img src="./assets/images/10.jpg" alt="" />
+                    <img src="./assets/images/9.jpg" alt="" />
+                    <img src="./assets/images/8.jpg" alt="" />
+                    <img src="./assets/images/7.jpg" alt="" />
+                </div>
+
+                <!-- Hero Offer section -->
+                <div class="hero-section">
+                    <img src="./assets/images/offergif-1.gif" alt="" />
+                </div>
+
+                <!-- Category section -->
+                <div class="categories">
+                    <div class="section-title"></div>
+                </div>
+
+                <!-- New Arrival section -->
+                <div class="new-arrival">
+                    <div class="section-title">
+                        Best Sellers
+                    </div>
+                    <div class="product-showcase">
+                        <!-- Product Card component -->
+                        <div class="product-card">
+                            <img
+                                src="./assets/images/product/Bonkerscorner_black_wide_leg_sweatpants_8660-1-768x1152.jpg"
+                                alt=""
+                            />
+                            <div class="product-data">
+                                <p class="category-details">Bottoms</p>
+                                <p class="product-name">Blck Pant</p>
+                                <div class="product-price">
+                                    <p class="original-price">₹<span>1499</span></p>
+                                    <p class="discounted-price">₹<span>799</span></p>
+                                </div>
+                                <div class="product-action"><button class="btn-add-to-cart">Add to Cart</button></div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img
+                                src="./assets/images/product/Bonkerscorner_blue-top_05-768x1152.jpg"
+                                alt=""
+                            />
+                            <div class="product-data">
+                                <p class="category-details">Bottoms</p>
+                                <p class="product-name">Blck Pant</p>
+                                <div class="product-price">
+                                    <p class="original-price">₹<span>1499</span></p>
+                                    <p class="discounted-price">₹<span>799</span></p>
+                                </div>
+                                <div class="product-action"><button class="btn-add-to-cart">Add to Cart</button></div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img
+                                src="./assets/images/product/20230725_060209000_iOS-4-768x1152.jpg"
+                                alt=""
+                            />
+                            <div class="product-data">
+                                <p class="category-details">Bottoms</p>
+                                <p class="product-name">Blck Pant</p>
+                                <div class="product-price">
+                                    <p class="original-price">₹<span>1499</span></p>
+                                    <p class="discounted-price">₹<span>799</span></p>
+                                </div>
+                                <div class="product-action"><button class="btn-add-to-cart">Add to Cart</button></div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img
+                                src="./assets/images/product/Bonkerscorner_green-derss_03-1-768x1152.jpg"
+                                alt=""
+                            />
+                            <div class="product-data">
+                                <p class="category-details">Bottoms</p>
+                                <p class="product-name">Blck Pant</p>
+                                <div class="product-price">
+                                    <p class="original-price">₹<span>1499</span></p>
+                                    <p class="discounted-price">₹<span>799</span></p>
+                                </div>
+                                <div class="product-action"><button class="btn-add-to-cart">Add to Cart</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Best Seller section -->
+                <div class="best-seller">
+                    <div class="Section-title"></div>
+                </div>
+                <!-- Features section -->
                 <div class="features"></div>
             </main>
 
@@ -183,5 +314,6 @@
 
         <!-- Scripts -->
         <script src="./scripts/index.js"></script>
+        <script src="./scripts/home.js"></script>
     </body>
 </html>
