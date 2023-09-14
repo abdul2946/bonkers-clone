@@ -1,0 +1,14 @@
+.products-page{
+    margin: 10px;
+}
+@media (min-width:960px) {
+   .products-page{
+    display: flex;
+   }
+}
+.products-page section{
+    width: 80%;
+}
+.products-filter{
+    width: 20%;
+}
