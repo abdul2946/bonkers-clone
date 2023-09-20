@@ -54,28 +54,33 @@
 }
 
 /* Desktop Navbar */
-.nav-menu li::after {
+.nav-menu a::after {
     content: "";
     position: absolute;
     height: 2px;
     background-color: black;
     left: 0;
     width: 0;
-    bottom: 30px;
+    bottom: -10px;
     transition: 0.3s linear;
 }
-.nav-menu > li:hover:after {
+.nav-menu > a:hover:after {
     width: 100%;
 }
-
-.nav-menu li {
+.nav-menu a{
+    position: relative;
+}
+.nav-menu li{
     display: inline-block;
     padding: 5px;
     font-size: 11px;
     justify-self: start;
-    position: relative;
     cursor: pointer;
     line-height: 5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .nav-brand {
     text-align: center;
@@ -157,6 +162,7 @@
     background-color: white;
     height: 100vh;
     transition: 0.5s;
+    z-index: 5;
 }
 
 .mini-cart .checkout {
