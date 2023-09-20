@@ -33,6 +33,7 @@
     background-color: white;
     height: 100vh;
     transition: 0.5s;
+    z-index: 5;
 }
 @media (max-width: 960px) {
     .active-nav .nav-list {
