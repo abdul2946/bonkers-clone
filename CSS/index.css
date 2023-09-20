@@ -5,6 +5,12 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    display: none;
+}
+@media (min-width:960px) {
+    .carousel{
+        display: block;
+    }
 }
 .slide {
     position: absolute;
